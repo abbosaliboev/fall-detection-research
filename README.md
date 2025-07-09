@@ -27,3 +27,27 @@ In this paper, a computer vision-based fall detection system has been proposed u
 ## Fall recognition using a three stream spatio temporal GCN model with adaptive feature aggregation
 https://www.nature.com/articles/s41598-025-95508-7?utm_source=chatgpt.com
 This paper has introduced a novel architecture for human fall detection that leverages skeletons extracted from standard videos, enabling deployment with low-cost cameras. The proposed model incorporates three feature extraction streams: joint skeleton-based spatial and temporal Graph Convolutional Network (GCN) features, joint motion-based spatial and temporal GCN features, and residual connections. Additionally, adaptive graph-based feature aggregation and consecutive separable convolutional neural networks (Sep-TCN ) were employed in each stream to reduce the computational complexity and the number of parameters of the model. Extensive experiments on multiple benchmark datasets demonstrated the model’s high accuracy and robustness, underscoring its effectiveness and efficiency in detecting human falls in real-world scenarios. The advantages of our model include its improved accuracy, robustness, and reduced computational demands, addressing the key limitations of existing systems. Primarily, it is tailored for elderly users, who are the ones most at risk for human falls, and we evaluated the model human fall dataset, which is mostly collected from elderly people. In the future, we will work to collect data from adults and younger individuals and observe the effect of age variation on our current older people dataset.
+
+## Enhancing elderly care: Efficient and reliable real-time fall detection algorithm
+https://journals.sagepub.com/doi/full/10.1177/20552076241233690
+This paper has introduced a novel architecture for human fall detection that leverages skeletons extracted from standard videos, enabling deployment with low-cost cameras. The proposed model incorporates three feature extraction streams: joint skeleton-based spatial and temporal Graph Convolutional Network (GCN) features, joint motion-based spatial and temporal GCN features, and residual connections. Additionally, adaptive graph-based feature aggregation and consecutive separable convolutional neural networks (Sep-TCN ) were employed in each stream to reduce the computational complexity and the number of parameters of the model. Extensive experiments on multiple benchmark datasets demonstrated the model’s high accuracy and robustness, underscoring its effectiveness and efficiency in detecting human falls in real-world scenarios. The advantages of our model include its improved accuracy, robustness, and reduced computational demands, addressing the key limitations of existing systems. Primarily, it is tailored for elderly users, who are the ones most at risk for human falls, and we evaluated the model human fall dataset, which is mostly collected from elderly people. In the future, we will work to collect data from adults and younger individuals and observe the effect of age variation on our current older people dataset.
+
+## Vision-based human fall detection systems using deep learning: A review 
+https://www.clinicalkey.com/#!/content/playContent/1-s2.0-S0010482522004188?returnurl=null&referrer=null
+In this paper, we have reviewed the recent (since 2014) developments in the DL based non-intrusive (vision-based) HFD methods.
+We have described the different metrics which are used to evaluate the
+performance of these fall detection methods. Sensitivity (recall), specificity, accuracy, F score, precision, and geometric mean were defined
+with their respective equations. The HFDSs which are publicly available,
+are also surveyed briefly. A brief description of MCFD, Le2i FDD, URFD,
+SDUFall, HQFSD, TSFD, SisFall, and UP-Fall datasets have been provided. To review the DL based fall detection methods, we have classified
+all methods according to the DL model used. We have classified it to
+CNN, Auto-Encoder, LSTM, MLP, and hybrid. Lots of work have been
+done in this field which gives good results. Some more work is needed
+considering the multi-person in a frame and occlusion. More work
+should be done considering privacy and security also. Thermal and
+infrared cameras can be utilized for privacy. Edge computing can be
+useful for providing security. The datasets which are available have been
+created by simulating the fall activities by some actors. These datasets
+do not contain the activities of the actual subjects (patients/old people).
+A dataset using thermal or infrared sensors can be created which will
+contain the activities of the actual subjects. Therma
