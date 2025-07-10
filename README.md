@@ -57,3 +57,5 @@ contain the activities of the actual subjects. Therma
 ## Fall-portent detection for construction sites based on computer vision and machine learning
 https://www.emerald.com/insight/content/doi/10.1108/ecam-05-2023-0458/full/html
 
+## A practical and robust skeleton-based artificial intelligence algorithm for multi-person fall detection on construction sites considering occlusions
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4909170
