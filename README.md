@@ -33,7 +33,7 @@ https://www.clinicalkey.com/#!/content/playContent/1-s2.0-S0010482522004188?retu
 # 07-10
 ## Fall-portent detection for construction sites based on computer vision and machine learning
 https://www.emerald.com/insight/content/doi/10.1108/ecam-05-2023-0458/full/html
-
+---
 ## A practical and robust skeleton-based artificial intelligence algorithm for multi-person fall detection on construction sites considering occlusions
 ## Robust skeleton-based AI for automatic multi-person fall detection on construction sites with occlusions (Elsevier)
 https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4909170
