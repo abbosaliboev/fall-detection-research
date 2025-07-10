@@ -51,3 +51,9 @@ created by simulating the fall activities by some actors. These datasets
 do not contain the activities of the actual subjects (patients/old people).
 A dataset using thermal or infrared sensors can be created which will
 contain the activities of the actual subjects. Therma
+
+
+# 07-10
+## Fall-portent detection for construction sites based on computer vision and machine learning
+https://www.emerald.com/insight/content/doi/10.1108/ecam-05-2023-0458/full/html
+
