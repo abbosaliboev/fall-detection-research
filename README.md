@@ -5,52 +5,29 @@ A Research project focused on detecting human falls using computer vision and ma
 
 ## A spatio-temporal graph neural network for fall prediction with inertial sensors
 https://www.sciencedirect.com/science/article/abs/pii/S0950705124003447
-In this paper, we present a GNN-based fall prediction method, which can capture both temporal and spatial relations among poses, especially for the Falling phase in complex scenes. It is more efficient than existing methods in fall prediction, particularly in reducing the miss or false alarm rates for fall events. As for future work, we will consider learning causal relations among poses for robustness and exploring the applications of our model on other phases in fall events.
+
 
 ## A real-time system for fall prediction and protection with spatio-temporal graph neural network using multiple motion sensors
 https://www.sciencedirect.com/science/article/abs/pii/S0957417425011716
-In this paper, we propose a practical real-time fall prediction system designed to mitigate injuries caused by human falls. We introduce a neural network model based on spatio-temporal dynamic graphs, which successfully captures the spatio-temporal features of motion signals moments before a fall from multiple motion sensors. This model facilitates the dynamic topological reconstruction of human motion information, enabling the system to rapidly and accurately identify impending falls. As a
+
 
 ## Multimodal fall detection for solitary individuals based on audio-video decision fusion processing
 https://www.sciencedirect.com/science/article/pii/S2405844024056275
-Falls are a major safety concern in single-person households, and older adults are particularly vulnerable. Consequently, the development of precise and efficient fall detection methodologies has emerged as a focal point of contemporary research. Furthermore, the integration of multimodal technologies is anticipated to substantially enhance detection accuracy and robustness by leveraging the complementary strengths of diverse modalities.
-In this study, we explore ways to combine video and audio modalities based on non-invasive devices to enhance fall detection. Specifically, we employ the YOLOv7-Pose algorithm to identify critical skeletal nodes in video data, while two stream ST-GCN extracts pertinent spatial and temporal information to render a frame-level decision. This decision is then aggregated to formulate a video-level conclusion. Concurrently, in the audio domain, we implement a data augmentation technique to enrich our dataset, followed by the extraction of features using the log-scaled mel spectrogram. Subsequent analysis employs k-fold cross-validation to contrast the performance metrics of the MobileNetV2 and ResNet18 models. Despite the similar accuracy of the two architectures, MobileNetV2 is ultimately selected for its superior computational efficiency and more compact model size.
-In order to test the generalization ability of the model, the original dataset is subjected to a variety of transformations including dimming the brightness, mirror inversion, changing the time domain, changing the volume and adding noise. The subsequent analysis reveals that the video modality struggles to accurately detect falls under conditions of low illumination or significant obstruction of the human figure. The efficacy of the inference results is significantly enhanced through the application of decision-level fusion techniques combining audio modalities, with optimal outcomes observed when the video modality is assigned a weight of 0.7. Furthermore, it is determined that decision fusion employing D-S theory yields a more balanced performance in the model compared to linear weighting methods.
-We believe that multimodal audio-visual fusion methods, due to their advantages, are expected to become the optimal means of fall detection. In future research, we expect to apply our work to implement automatic fall detection systems in actual surveillance camera networks; and further optimize and improve the model based on actual data, and consider integrating more thorough feature-level fusion technology, paying special attention to time alignment methods; additionally there will be an emphasis on addressing privacy and data security issues, including the incorporation of image and audio anonymization techniques.
 
 
 ## Human Fall Detection using YOLO: A Real-Time and AI-on-the-Edge Perspective
 https://ieeexplore.ieee.org/document/9854070
-In this paper, a computer vision-based fall detection system has been proposed using YOLO and its variants. The research concluded that YOLO variants are effective for detecting human falls on edge devices in real-time. We have improved the accuracy of real-time human fall detection by using the YOlO algorithm and its variants for the UR fall dataset. As a result of this study, Tiny-YOLOV4 was identified as the most appropriate model for real-time fall detection. This same principle can be further extended to human activity recog-nition. In the future, we can extend this study by exploring alternative deep learning models for human fall detection and conducting an experimental study on human fall detection using different techniques and datasets. We are also exploring the use of pose estimation techniques to develop a real-time fall detection system. For pose estimation as a backbone, we intend to use different pose extractors, alphapose, blazepose, and openpose, to classify whether fall occurs or not. For fall detection, we also use vision transformers that employ attention mechanisms.
+
 
 # 2025
 ## Fall recognition using a three stream spatio temporal GCN model with adaptive feature aggregation
 https://www.nature.com/articles/s41598-025-95508-7?utm_source=chatgpt.com
-This paper has introduced a novel architecture for human fall detection that leverages skeletons extracted from standard videos, enabling deployment with low-cost cameras. The proposed model incorporates three feature extraction streams: joint skeleton-based spatial and temporal Graph Convolutional Network (GCN) features, joint motion-based spatial and temporal GCN features, and residual connections. Additionally, adaptive graph-based feature aggregation and consecutive separable convolutional neural networks (Sep-TCN ) were employed in each stream to reduce the computational complexity and the number of parameters of the model. Extensive experiments on multiple benchmark datasets demonstrated the model’s high accuracy and robustness, underscoring its effectiveness and efficiency in detecting human falls in real-world scenarios. The advantages of our model include its improved accuracy, robustness, and reduced computational demands, addressing the key limitations of existing systems. Primarily, it is tailored for elderly users, who are the ones most at risk for human falls, and we evaluated the model human fall dataset, which is mostly collected from elderly people. In the future, we will work to collect data from adults and younger individuals and observe the effect of age variation on our current older people dataset.
 
 ## Enhancing elderly care: Efficient and reliable real-time fall detection algorithm
 https://journals.sagepub.com/doi/full/10.1177/20552076241233690
-This paper has introduced a novel architecture for human fall detection that leverages skeletons extracted from standard videos, enabling deployment with low-cost cameras. The proposed model incorporates three feature extraction streams: joint skeleton-based spatial and temporal Graph Convolutional Network (GCN) features, joint motion-based spatial and temporal GCN features, and residual connections. Additionally, adaptive graph-based feature aggregation and consecutive separable convolutional neural networks (Sep-TCN ) were employed in each stream to reduce the computational complexity and the number of parameters of the model. Extensive experiments on multiple benchmark datasets demonstrated the model’s high accuracy and robustness, underscoring its effectiveness and efficiency in detecting human falls in real-world scenarios. The advantages of our model include its improved accuracy, robustness, and reduced computational demands, addressing the key limitations of existing systems. Primarily, it is tailored for elderly users, who are the ones most at risk for human falls, and we evaluated the model human fall dataset, which is mostly collected from elderly people. In the future, we will work to collect data from adults and younger individuals and observe the effect of age variation on our current older people dataset.
 
 ## Vision-based human fall detection systems using deep learning: A review 
 https://www.clinicalkey.com/#!/content/playContent/1-s2.0-S0010482522004188?returnurl=null&referrer=null
-In this paper, we have reviewed the recent (since 2014) developments in the DL based non-intrusive (vision-based) HFD methods.
-We have described the different metrics which are used to evaluate the
-performance of these fall detection methods. Sensitivity (recall), specificity, accuracy, F score, precision, and geometric mean were defined
-with their respective equations. The HFDSs which are publicly available,
-are also surveyed briefly. A brief description of MCFD, Le2i FDD, URFD,
-SDUFall, HQFSD, TSFD, SisFall, and UP-Fall datasets have been provided. To review the DL based fall detection methods, we have classified
-all methods according to the DL model used. We have classified it to
-CNN, Auto-Encoder, LSTM, MLP, and hybrid. Lots of work have been
-done in this field which gives good results. Some more work is needed
-considering the multi-person in a frame and occlusion. More work
-should be done considering privacy and security also. Thermal and
-infrared cameras can be utilized for privacy. Edge computing can be
-useful for providing security. The datasets which are available have been
-created by simulating the fall activities by some actors. These datasets
-do not contain the activities of the actual subjects (patients/old people).
-A dataset using thermal or infrared sensors can be created which will
-contain the activities of the actual subjects. Therma
 
 
 # 07-10
@@ -58,4 +35,5 @@ contain the activities of the actual subjects. Therma
 https://www.emerald.com/insight/content/doi/10.1108/ecam-05-2023-0458/full/html
 
 ## A practical and robust skeleton-based artificial intelligence algorithm for multi-person fall detection on construction sites considering occlusions
+## Robust skeleton-based AI for automatic multi-person fall detection on construction sites with occlusions (Elsevier)
 https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4909170
